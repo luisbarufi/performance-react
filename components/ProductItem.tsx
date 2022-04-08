@@ -15,6 +15,6 @@ function ProductItemCompoment({ product }: ProductItemProps) {
   );
 }
 
-export const ProductItem = memo (ProductItemCompoment, (prevProps, nextProps) => { 
+export const ProductItem = memo (ProductItemCompoment, (prevProps, nextProps) => {
   return Object.is(prevProps.product, nextProps.product);
 });
