@@ -27,7 +27,7 @@ export default function Home() {
         <button type="submit">Search</button>
       </form>
 
-      <SearchResults results={results}/>
+      <SearchResults results={results} />
     </div>
   );
 }
