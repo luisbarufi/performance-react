@@ -22,7 +22,7 @@ export function SearchResults({ results }: SearchResultsPrpos) {
 
       {results.map((product) =>{
         return (
-          <ProductItem product={product} key={product.id}/>
+          <ProductItem key={product.id} product={product} />
         );
       })}
     </div>
